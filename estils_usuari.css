@@ -1,0 +1,53 @@
+/* Estilos para el formulario en estils_usuari.css */
+
+/* Estilos generales para todo el documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Color de fondo para la página */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 70%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+}
+
+label {
+    font-weight: bold;
+    display: block; /* Colocar cada etiqueta en una nueva línea */
+    margin-top: 10px; /* Espacio superior para las etiquetas */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0074d9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px; /* Espacio superior para el botón */
+}
+
+/* Cambiar el color del botón al pasar el cursor sobre él */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
